@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>THE EYE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300;1,500&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body data-l="0">
+<canvas id="c"></canvas><div id="grain"></div><div id="vig"></div>
+<div class="lid" id="lt"></div><div class="lid" id="lb"></div>
+<div id="marks"></div><div id="msg"></div><div id="hint"></div><div id="toast"></div>
+<div id="goal"><span id="gt"></span> <em id="prog"></em></div>
+<div id="inv"></div><canvas id="ecg" width="150" height="34"></canvas>
+<div id="chap"></div><div id="choices"></div><div id="ov"></div><div id="fx"></div>
+<button id="next">continue</button>
+<div id="top"><button id="snd">sound on</button><button id="mn">menu</button></div>
+<div id="menu"><h2>Paused</h2><button id="res">Resume</button><button id="snd2">Toggle sound</button><button id="skip">Skip this chapter</button><select id="jump" aria-label="Jump to chapter"></select></div>
+<div id="start"><h1>THE EYE</h1><p class="sub">It knows you're here.</p><input id="nm" maxlength="18" placeholder="Your name" autocomplete="off"><button id="go">Begin</button>
+<p class="small">Contains sudden sound, flashing light and sustained dread. Headphones strongly recommended.<br>Your cursor is your flashlight. Click anything that glows. Push the cursor to a screen edge to turn. F toggles the light. → continues, ← goes back, Esc pauses.</p></div>
+<div id="end"><div id="el"></div><h1 id="et"></h1><p id="es"></p><button id="again">Play again</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="engine.js"></script>
+<script src="props.js"></script>
+<script src="scenes/the-gate.js"></script>
+<script src="scenes/the-foyer.js"></script>
+<script src="scenes/the-study.js"></script>
+<script src="scenes/the-corridor.js"></script>
+<script src="scenes/the-ward.js"></script>
+<script src="scenes/the-mirror.js"></script>
+<script src="scenes/the-observatory.js"></script>
+<script src="scenes/the-ending.js"></script>
+<script>boot()</script></body></html>
